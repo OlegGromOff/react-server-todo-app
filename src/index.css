@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  padding: 30px;
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+.btn-default {
+  border: 1px solid grey;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+footer {
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid grey;
+}
+
+.app-title {
+  color: #777777;
+  font-size: 24px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom-form-side {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.slider-img {
+  width: 500px;
+  max-width: 100%;
+}
+
+
+
+.slider-inner {
+  text-align: center;
+  position: relative;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  border: none;
+  background-color: #0275d8;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.prev-button {
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev-button:focus,
+.next-button:focus {
+  outline: none;
+}
+
+@media screen and (max-width:640px) {
+  .slider-img {
+    width: 220px;
+  }
+
+  .prev-button {
+    left: -25px
+  }
+
+  .next-button {
+    right: -25px;
+  }
+}
